@@ -2,25 +2,66 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0f172a;
+  --muted: #436156;
+  --surface: #ffffff;
+  --surface-alt: #f3fbf6;
+  --primary: #0f7a35;
+  --accent: #0ea5e9;
+  --border: #d6e9dd;
+  --ring: color-mix(in srgb, var(--primary) 40%, transparent);
+  --radius: 18px;
+  --heading: #113321;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0c2415;
+    --foreground: #e8f5ed;
+    --muted: #7ca392;
+    --surface: #0c2415;
+    --surface-alt: #113321;
+    --primary: #34d762;
+    --accent: #4cc5f1;
+    --border: #123522;
+    --heading: #4ade80;
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-heading: var(--heading);
+  --shadow-soft: 0 20px 70px color-mix(in srgb, var(--foreground) 8%, transparent);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--primary) 35%, transparent);
 }
