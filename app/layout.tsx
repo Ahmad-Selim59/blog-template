@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NichePress | Blog Website Template",
+  title: "Health Hub",
   description:
     "Reusable Next.js + Tailwind CSS v4 blog template. Swap colors, imagery, and logos per niche in minutes.",
 };
