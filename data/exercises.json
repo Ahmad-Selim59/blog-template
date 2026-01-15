@@ -1,0 +1,61 @@
+{
+  "slug": "exercises",
+  "name": "Exercises",
+  "intro": "Modular workouts with warmups, main sets, and regressions. Swap imagery and rep ranges per demographic.",
+  "heroNote": "Design tokens keep buttons and CTAs on-brand for any gym niche.",
+  "posts": [
+    {
+      "title": "Beginner full-body routine with progressions",
+      "slug": "beginner-full-body",
+      "excerpt": "3-day template with push/pull/legs, RPE guidance, and rest timers.",
+      "date": "Jan 2025",
+      "readTime": "7 min read",
+      "tags": ["Strength", "Beginner"],
+      "category": "Exercises",
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80",
+      "content": [
+        {
+          "type": "p",
+          "text": "Starting a fitness journey can be overwhelming. This 3-day full-body routine is designed to build a strong foundation of movements while allowing for maximum recovery."
+        },
+        { "type": "h2", "text": "The Routine" },
+        {
+          "type": "p",
+          "text": "Focus on compound movements like squats, presses, and rows. Perform 3 sets of 8-12 repetitions for each exercise, keeping an 'effort' level of 7 out of 10."
+        }
+      ]
+    },
+    {
+      "title": "Mobility primer for desk workers",
+      "slug": "mobility-primer-desk",
+      "excerpt": "10-minute flows for hips, T-spine, and wrists you can embed in any article.",
+      "date": "Dec 2024",
+      "readTime": "4 min read",
+      "tags": ["Mobility", "Recovery"],
+      "category": "Exercises",
+      "image": "https://images.unsplash.com/photo-1554344058-8d1d1bc9c837?auto=format&fit=crop&w=1600&q=80",
+      "content": [
+        {
+          "type": "p",
+          "text": "Prolonged sitting can lead to tight hip flexors and a rounded upper back. These three simple flows can be done in your office chair or standing up to reset your posture."
+        }
+      ]
+    },
+    {
+      "title": "Interval templates for fat loss or conditioning",
+      "slug": "interval-templates",
+      "excerpt": "Zone 2, 30/30s, and hill sprints with clear safety constraints.",
+      "date": "Nov 2024",
+      "readTime": "5 min read",
+      "tags": ["Cardio", "Conditioning"],
+      "category": "Exercises",
+      "image": "https://images.unsplash.com/photo-1506224774225-0f946d17d66f?auto=format&fit=crop&w=1600&q=80",
+      "content": [
+        {
+          "type": "p",
+          "text": "Interval training is a powerful tool for improving cardiovascular health and metabolic flexibility. Here's how to structure your sessions for maximum effectiveness."
+        }
+      ]
+    }
+  ]
+}

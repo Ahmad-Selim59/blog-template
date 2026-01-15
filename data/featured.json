@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Health sites you can skin per niche in minutes",
+    "slug": "health-sites-you-can-skin",
+    "excerpt": "Swap colors, logos, and imagery via CSS variables. Duplicate sections, update tokens, and publish fast.",
+    "date": "Updated today",
+    "readTime": "5 min read",
+    "tags": ["Template", "Tokens"],
+    "category": "System",
+    "content": [
+      {
+        "type": "p",
+        "text": "This template was built for speed and niche flexibility. By using CSS variables for colors, borders, and spacing, you can reskin the entire site without touching a single React component."
+      }
+    ]
+  },
+  {
+    "title": "Safety-forward content blocks",
+    "slug": "safety-forward-content-blocks",
+    "excerpt": "Reusable disclaimers, consult-your-doctor callouts, and sourcing notes you can toggle on or off.",
+    "date": "Jan 2025",
+    "readTime": "4 min read",
+    "tags": ["Compliance", "Trust"],
+    "category": "Framework",
+    "content": [
+      {
+        "type": "p",
+        "text": "In the health niche, trust is everything. This system includes pre-styled callout blocks for safety notes, medical disclaimers, and sourcing citations to ensure your content is both helpful and compliant."
+      }
+    ]
+  }
+]

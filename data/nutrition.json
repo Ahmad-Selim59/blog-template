@@ -1,0 +1,56 @@
+{
+  "slug": "nutrition",
+  "name": "Nutrition",
+  "intro": "Meal frameworks, grocery lists, and macro targets that travel well between niches and geos.",
+  "heroNote": "Use the tokens to theme recipe cards, buttons, and labels.",
+  "posts": [
+    {
+      "title": "High-protein plate method anyone can follow",
+      "slug": "high-protein-plate",
+      "excerpt": "Quartered plate visual + protein swaps for vegetarian, vegan, and budget.",
+      "date": "Jan 2025",
+      "readTime": "5 min read",
+      "tags": ["Macros", "Protein"],
+      "category": "Nutrition",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80",
+      "content": [
+        {
+          "type": "p",
+          "text": "Visualizing your nutrition is often more effective than counting every gram. The plate method ensures you're getting adequate protein and fiber without the stress of tracking apps."
+        }
+      ]
+    },
+    {
+      "title": "Meal prep kits for busy people",
+      "slug": "meal-prep-kits",
+      "excerpt": "Batch-cook template with storage times, reheating, and portion cues.",
+      "date": "Dec 2024",
+      "readTime": "4 min read",
+      "tags": ["Prep", "Time-saving"],
+      "category": "Nutrition",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80&sat=-25",
+      "content": [
+        {
+          "type": "p",
+          "text": "The key to consistency is preparation. Spend two hours on Sunday setting yourself up for success during the work week."
+        }
+      ]
+    },
+    {
+      "title": "Electrolytes and hydration made simple",
+      "slug": "electrolytes-made-simple",
+      "excerpt": "Ratios, timing, and when to add carbs for long sessions.",
+      "date": "Nov 2024",
+      "readTime": "3 min read",
+      "tags": ["Hydration", "Performance"],
+      "category": "Nutrition",
+      "image": "https://images.unsplash.com/photo-1510626176961-4b37d0b4e904?auto=format&fit=crop&w=1600&q=80",
+      "content": [
+        {
+          "type": "p",
+          "text": "Hydration isn't just about water. Electrolytes like sodium, potassium, and magnesium are critical for maintaining fluid balance and nerve transmission."
+        }
+      ]
+    }
+  ]
+}
